@@ -4,3 +4,4 @@ torchsummary
 torch-snippets
 nbformat
 nbclient
+nbconvert
