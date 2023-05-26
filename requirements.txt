@@ -1,4 +1,4 @@
-matplotlib==3.3.4
-pandas==1.3.5
+matplotlib
+pandas
 torchsummary
 torch-snippets
