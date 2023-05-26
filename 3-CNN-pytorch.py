@@ -332,7 +332,7 @@ def validate_batch(model, data, criterion, device):
 
 
 # initializing variables
-n_epochs = 100
+n_epochs = 2
 log      = Report(n_epochs)
 
 # starting training and validation
