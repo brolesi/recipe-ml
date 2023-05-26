@@ -5,3 +5,4 @@ torch-snippets
 nbformat
 nbclient
 nbconvert
+urllib3==1.26.15
