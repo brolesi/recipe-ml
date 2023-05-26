@@ -2,3 +2,5 @@ matplotlib
 pandas
 torchsummary
 torch-snippets
+nbformat
+nbclient
