@@ -16,6 +16,7 @@ import torch.optim as optim
 import matplotlib.pyplot as plt
 import numpy as np
 from PIL import Image 
+import gc
 
 #is GPU available?
 gpu = torch.cuda.is_available()
@@ -291,7 +292,6 @@ lr_scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=25, gamma=0.1)
 # In[20]:
 
 
-import gc
 #del trainset, validset, testset
 gc.collect()
 torch.cuda.empty_cache()
