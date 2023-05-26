@@ -134,7 +134,7 @@ testset  = ImageDataset(testset, prep)
 # visualize images from the trainset
 
 print("Number of images:", len(trainset))
-image, target = trainset[100] # it executes getitem
+image, target = trainset[10] # it executes getitem 100
 image     = image.permute(1,2,0).numpy()
 image     = 255*(image - np.min(image))/(np.max(image)-np.min(image))
 image     = image.astype('uint8')
